@@ -1,0 +1,52 @@
+.AboutMe{
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex; /* Usa Flexbox para alinear el ícono y el h2 */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+.final {
+    display: flex; /* Usa Flexbox para alinear el ícono y el h2 */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+
+.final h2 {
+    font-family: 'Roboto', sans-serif;
+    font-stretch: expanded;
+}
+
+  h2, h3 {
+    margin: 0; /* Elimina el margen predeterminado de los títulos */
+  }
+  
+  h3 {
+    margin-top: 10px;
+    max-width: 1200px; /* Limita el ancho del texto */
+  }
+
+  .Im {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%; /* Hace la imagen circular */
+    border: 1px solid antiquewhite;
+    float: right; /* Permite que el texto fluya alrededor */
+    shape-outside: circle(); /* Define la forma circular para el texto */
+    margin-left: 10px; /* Espacio entre la imagen y el texto */
+  }
+
+  .view {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .texto {
+    flex: 1; /* Permite que el texto ocupe el espacio restante */
+    text-align: end;
+
+  }
+

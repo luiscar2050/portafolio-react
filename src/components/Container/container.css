@@ -1,0 +1,8 @@
+.main-content {
+    padding-top: 80px; 
+    min-height: 100vh; 
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
