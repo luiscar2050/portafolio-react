@@ -30,9 +30,10 @@
 
     .div-padre > h1{
         font-family: Arial, Helvetica, sans-serif;
-        margin: 10px;
+        margin: 8px;
         font-size: 20px;
         font-weight: 500;
+        cursor: pointer;
     }
 
     .logo-img {
@@ -40,6 +41,7 @@
         height: 50px; 
         border-radius: 100%;
         gap: 10px;
+        cursor: pointer;
     }
     
     .logo {
