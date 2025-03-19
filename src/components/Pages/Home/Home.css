@@ -14,7 +14,7 @@
     }
 
     .title>h2 {
-        width: 95%;
+        width: 100%;
         text-align: center;
         color: #c31212;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -63,3 +63,11 @@
         transform: translateY(10px);
         transition: 100ms;
     }
+
+    .flex-text {
+        display: flex; /* Enable flexbox */
+        flex-direction: row; /* Arrange items horizontally (use 'column' for vertical) */
+        align-items: center; /* Center items vertically */
+        justify-content: center; /* Center items horizontally */
+        gap: 8px; /* Add spacing between items */
+      }
