@@ -70,9 +70,20 @@
     transform: translateY(-100%);
   }
   
-  .card__image {
+  .card__image1 {
     height: 400px;
     width: 300px;
-    background-color: #000;
-    /* you can put img url here  */
+    background-image: url("../../img/repro.png");
+  }
+
+  .card__image2 {
+    height: 400px;
+    width: 300px;
+    background-image: url("../../img/ropis.png");
+  }
+
+  .card__image3 {
+    height: 400px;
+    width: 300px;
+    background-image: url("../../img/dicti.png");
   }
