@@ -1,28 +1,19 @@
 import './AboutMe.css'
-import Im from '../../img/IMG-20240422-WA0001.jpg'
+import img from "../../img/perfil-sinfondo.webp"
 
 export const InterpersonalSkills = () => {
     return(
-        <div>
-            <div>
-            <box-icon name='chevron-left' color='#f2e9dd' size="80px"></box-icon>
-                    <h2>Luis Carlos Salazar Cortes</h2> 
-                    <box-icon name='chevron-right' color='#f2e9dd' size="80px"></box-icon>
-            </div>
-        <div>
-                <img src={Im} alt="" className="Im" />
-            <div>
-                <h3>
-
-                </h3>
-            </div>
+        <div className="card">
+        <div className="card-content2">
+            <h1>Luis Carlos</h1>
+            <h1>Salazar Cortes</h1>
+            <button>Desarrolador De Software</button>    
         </div>
-    
-        <div>
-            <box-icon name='chevron-left' color='#f2e9dd' size="80px"></box-icon>
-            <h2>/</h2>
-            <box-icon name='chevron-right' color='#f2e9dd' size="80px"></box-icon>
-        </div>
+        
+        <img src={img} alt=""/>
+    <div className="card-content">
+        <p>Soy un desarrollador de software capaz de trabajar en todas las etapas del ciclo de vida del software y colaborar eficazmente en equipos multidisciplinarios. Comprometido con el aprendizaje continuo y la entrega de soluciones de alta calidad</p>
+    </div>  
     
     </div>
     )

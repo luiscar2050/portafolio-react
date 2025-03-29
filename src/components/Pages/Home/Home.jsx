@@ -1,6 +1,6 @@
 import BlurText from '../../../TextAnimations/BlurText/BlurText';
 import Img from '../../img/IMG-20240422-WA0001.jpg'
-import './Home.css'
+import "./Home.css";
 
 
 export const Home = () => {
